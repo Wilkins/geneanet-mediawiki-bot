@@ -1,0 +1,75 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3910db8cd5b658b143cff6d04e3e227a",
+    "content-hash": "25856d502a32f434ae3ef5c5a4c5de2e",
+    "packages": [
+        {
+            "name": "mqu/geneanet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Wilkins/geneanet.git",
+                "reference": "927d13b6dc5dbae9d31a11409857e48256a1e365"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Wilkins/geneanet/zipball/927d13b6dc5dbae9d31a11409857e48256a1e365",
+                "reference": "927d13b6dc5dbae9d31a11409857e48256a1e365",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "lib/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Marc Quinton",
+                    "email": "m.quinton@gmail.com"
+                }
+            ],
+            "description": "php classes for Geneanet web site reading (genealogy)",
+            "support": {
+                "source": "https://github.com/Wilkins/geneanet/tree/master"
+            },
+            "time": "2015-12-16 11:27:44"
+        },
+        {
+            "name": "peachy/peachy",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MW-Peachy/Peachy.git",
+                "reference": "a65bfc04029f98540b60726f659f9b083386b201"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MW-Peachy/Peachy/zipball/a65bfc04029f98540b60726f659f9b083386b201",
+                "reference": "a65bfc04029f98540b60726f659f9b083386b201",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2015-08-24 23:44:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "peachy/peachy": 20,
+        "mqu/geneanet": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

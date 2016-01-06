@@ -1,0 +1,20 @@
+{
+    "name": "wilkins/geneanet-mediawiki-bot",
+    "authors": [
+        {
+            "name": "Wilkins",
+            "email": "thibault@taillandier.name"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/Wilkins/geneanet"
+      }
+    ],
+    "require": {
+        "Peachy/Peachy" : "dev-master",
+        "mqu/geneanet" : "dev-master"
+    }
+}
